@@ -1,0 +1,111 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header h2 {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  
+  /* Container for Panels */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  /* Individual Panels */
+  .panel {
+    flex: 1 1 calc(33.33% - 40px); /* 3 panels in a row, with space */
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Panel Headings */
+  .panel h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Panel Text */
+  .panel p, .panel ul, .panel ol {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  /* Lists in Panels */
+  .panel ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .panel ol {
+    list-style: decimal;
+    padding-left: 20px;
+  }
+  
+  /* QR Code Styling */
+  .qr-code {
+    text-align: center;
+  }
+  
+  .qr-code img {
+    max-width: 100px;
+    margin-top: 10px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  /* Logo Section */
+  .logo {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .logo img {
+    max-width: 150px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .panel {
+      flex: 1 1 calc(100% - 40px); /* Stacks panels on smaller screens */
+    }
+  }
+  
